@@ -23,29 +23,25 @@
   justify-content: center;
   padding-left: 64px;
 }
-
 .logo {
   width: 228px;
   height: 32px;
   z-index: 2;
 }
-
 .logo_place_header {
   background: url("../images/logo_place_header.svg");
   position: absolute;
   top: 30px;
   left: 64px;
 }
-
 .header__title {
-width: 730px;
-line-height: 96px;
-font-size: 102px;
-font-weight: 600;
-z-index: 2;
-margin: 0;
+  width: 730px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 600;
+  z-index: 2;
+  margin: 0;
 }
-
 .header__subtitle {
   position: absolute;
   max-width: 388px;
@@ -56,12 +52,10 @@ margin: 0;
   bottom: 30px;
   z-index: 2;
 }
-
 .header_link {
   text-decoration: none;
   color: #2f80ed;
 }
-
 .header_main-illustration {
   position: absolute;
   right: 0;
@@ -70,8 +64,6 @@ margin: 0;
   z-index: 1;
   bottom: 0;
 }
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   position: absolute;
   right: 0;
@@ -80,11 +72,7 @@ margin: 0;
   background-color: #2f80ed;
   top: 64px;
 }
-
-
-
-/*секция дискрипш*/
-
+/*------------секция дискрипш*/
 .description {
   display: flex;
   justify-content: center;
@@ -123,36 +111,29 @@ margin: 0;
   font-size: 24px;
   font-weight: 600;
 }
-
-
-
-/*секция диджтс*/
-
+/*-------------------секция диджтс*/
 .digits {
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 100px;
 }
-
 .section-title {
-line-height: 1.15;
-font-size: 60px;
-font-weight: 600;
-width: 60%;
-margin: 0 auto;
-text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
 }
-
 .section-subtitle {
-line-height: 34px;
-font-size: 24px;
-font-weight: normal;
-width: 60%;
-margin: 0 auto;
-margin-top: 20px;
-text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
 }
-
 .table {
   margin: 0 auto;
   padding: 0;
@@ -162,30 +143,24 @@ text-align: center;
   width: 1100px;
   flex-wrap: wrap;
 }
-
 .table__cell {
-width: 250px;
-padding-top: 60px;
+  width: 250px;
+  padding-top: 60px;
 }
-
 .table__heading {
-line-height: 1.15;
-font-size: 24px;
-font-weight: 600;
-margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
 }
-
 .table__text {
-line-height: 1.2;
-font-size: 18px;
-font-weight: normal;
-margin: 0;
-margin-top: 20px;
-
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+  margin-top: 20px;
 }
-
-/*секция фейнмана*/
-
+/*----------------секция фейнмана*/
 .feynman {
   margin: 0;
   padding: 0;
@@ -194,7 +169,6 @@ margin-top: 20px;
   position: relative;
   height: 890px;
 }
-
 .feynman__title {
   line-height: 1.15;
   font-size: 120px;
@@ -205,7 +179,6 @@ margin-top: 20px;
   margin-top: 100px;
   z-index: 2;
 }
-
 .feynman__subtitle {
   line-height: 51px;
   font-size: 36px;
@@ -214,7 +187,6 @@ margin-top: 20px;
   margin-top: 70px;
   z-index: 2;
 }
-
 .feynman__link {
   position: absolute;
   text-decoration: none;
@@ -238,27 +210,20 @@ margin-top: 20px;
   z-index: 1;
   bottom: 0;
 }
-
-/* кауфман*/
-
+/*---------------------------секция кауфман*/
 .kaufman {
   margin: 0 auto;
   padding-top: 90px;
   padding-bottom: 90px;
-
   background-color: #1f1f1f;
   position: relative;
   overflow: hidden;
   color: white;
 }
-
 /*не знаю зачем нужны эти классы если и без них всё работает, в задании они указаны
-
 .section-title_theme_dark {
-
 }
 .section-subtitle_theme_dark {
-
 }
 */
 .table__cell_theme_dark {
@@ -269,82 +234,74 @@ margin-top: 20px;
 }
 /*не знаю зачем нужны эти классы если и без них всё работает, в задании они указаны
 .table__heading_theme_dark {
-
 }
 .table__text_theme_dark {
-
 }
 */
 .kaufman__triangle {
   position: absolute;
   right: -210px;
   top: 0;
-height: 877px;
-width: 877px;
+  height: 877px;
+  width: 877px;
 }
-
-/* footer*/
-
+/*--------------------секция  footer*/
 .footer {
   min-height: 350px;
   display: flex;
   flex-direction: column;
-
-
-
-
-
-
-
   background-color: #1f1f1f;
 }
-
 .footer__columns {
-
-  margin:  auto;
+  min-height: 250px;
+  margin: 0 auto;
   margin-top: 60px;
   margin-bottom: 40px;
-
   list-style: none;
   display: flex;
   justify-content: space-between;
   width: 1100px;
   flex-wrap: wrap;
-
   color: white;
   width: 90%;
-
 }
 .logo_place_footer {
   background: url("../images/logo_place_footer.svg");
-
 }
 .footer__column_content_copyright {
-  align-items: flex-end;
-}
-.footer__column_content_info {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
 }
 .footer__column-heading {
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
 }
 .footer__column-link {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
   list-style: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 16px;
 }
-
-.footer_author {
-
-line-height: 25px;
-font-size: 18px;
-font-weight: normal;
-margin: 0;
-margin-bottom: 18px;
-margin-top: 18px;
-
+.footer__author {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 18px;
+  margin-bottom: 18px;
 }
-
+.footer__column-links {
+  text-decoration: none;
+  color: white;
+}
+.footer__social-icon {
+  margin-right: 10px;
+}
