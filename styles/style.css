@@ -4,7 +4,7 @@
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-/*---------------------section header*/
+/*--------------------section header*/
 .header {
   background-color: #f2f2f2;
   height: 100vh;
@@ -68,7 +68,7 @@
   background-color: #2f80ed;
   top: 64px;
 }
-/*------------section description*/
+/*--------------------section description*/
 .description {
   background-color: #f2f2f2;
   display: flex;
@@ -108,7 +108,7 @@
   font-size: 24px;
   font-weight: 600;
 }
-/*-------------------section digits*/
+/*--------------------section digits*/
 .digits {
   background-color: #f2f2f2;
   margin: 0 auto;
@@ -160,7 +160,7 @@
   margin: 0;
   margin-top: 20px;
 }
-/*----------------section feynman*/
+/*--------------------section feynman*/
 .feynman {
   background-color: #f2f2f2;
   margin: 0;
@@ -208,7 +208,7 @@
   z-index: 1;
   bottom: 0;
 }
-/*---------------------------section kaufman*/
+/*--------------------section kaufman*/
 .kaufman {
   background-color: #1f1f1f;
   margin: 0 auto;
@@ -219,6 +219,7 @@
   color: white;
 }
 .table__cell_theme_dark {
+  padding: 0;
   width: 200px;
   margin-right: 0;
   margin-top: 80px;
@@ -267,7 +268,7 @@
   font-size: 18px;
   font-weight: 600;
 }
-.footer__column-link {
+.footer__column-links {
   display: flex;
   flex-direction: column;
   padding-left: 0;
@@ -285,7 +286,7 @@
   margin-top: 18px;
   margin-bottom: 18px;
 }
-.footer__column-links {
+.footer__column-link {
   text-decoration: none;
   color: white;
 }
