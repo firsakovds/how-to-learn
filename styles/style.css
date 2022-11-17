@@ -70,7 +70,6 @@
 }
 /*--------------------section description*/
 .description {
-  background-color: #f2f2f2;
   display: flex;
   justify-content: center;
 }
@@ -110,7 +109,6 @@
 }
 /*--------------------section digits*/
 .digits {
-  background-color: #f2f2f2;
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 100px;
